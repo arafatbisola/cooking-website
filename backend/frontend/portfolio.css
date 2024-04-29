@@ -1,0 +1,66 @@
+/* portfolio.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+img, video {
+    max-width: 50%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+/* Specific section styles */
+#yam-and-sauce, #beans-and-plantain, #efo-riro-soup, #ofada-rice, #yam-porridge {
+    background-color: #f9f9f9;
+    padding: 1rem;
+}
+
+#yam-and-sauce img, #ofada-rice img, #yam-porridge img {
+    display: block;
+    margin: 0 auto;
+}
+
+#beans-and-plantain video, #efo-riro-soup video {
+    display: block;
+    margin: 0 auto;
+}
+
+#cooking-events, #awards-and-recognitions, #testimonials-reviews, #booking-information {
+    background-color: #f5f5f5;
+    padding: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    section {
+        padding: 0.5rem;
+    }
+
+    header, footer {
+        padding: 0.5rem;
+    }
+}
